@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* background: cyan; */
+}
+.title {
+  margin-top: 20px;
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+
+.inputform-main {
+  margin: 25%;
+  border: 5px solid #454545;
+  border-radius: 10px;
+  height: 70vh;
+}
+.weightlable {
+  font-size: 30px;
+  margin-right: 290px;
+  font-weight: 500;
+}
+.inputform-input input {
+  margin-top: 10px;
+  /* margin-right: 300px; */
+  padding: 10px;
+  height: 50px;
+  width: 70%;
+  font-size: 20px;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+.inputform-input hr {
+  margin-top: 20px;
+  background: #424242;
+  height: 5px;
+  border: none;
+  outline: none;
+}
+.bmi-result {
+  margin-top: 5%;
+
+  font-size: 30px;
+  font-weight: 500;
+}
+.inputform-buttons {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.inputform-buttons input {
+  height: 50px;
+  width: 150px;
+  font-size: 20px;
+  padding: 10px;
+  border: 2px solid #424242;
+  border-radius: 8px;
+  background: #007bff;
+  color: #ffffff;
+}
+.inputform-buttons input:hover {
+  background-color: #0056b3;
+}
+.inputform-buttons input:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #ffffff, 0 0 0 4px #007bff;
+}
