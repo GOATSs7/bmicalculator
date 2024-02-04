@@ -11,10 +11,11 @@
 }
 
 .inputform-main {
-  margin: 25%;
+  margin: 30%;
   border: 5px solid #454545;
   border-radius: 10px;
   height: 70vh;
+  width: 400px;
 }
 .weightlable {
   font-size: 30px;

@@ -1,10 +1,15 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./InputForm.css";
 const InputForm = () => {
   const [weight, setWeight] = useState("");
   const [height, setHeight] = useState("");
   const [bmi, setBmi] = useState(null);
   const [bmiSlab, setBmiSlab] = useState("");
+
+  useEffect(() => {
+    document.title = "BMI Calculator";
+  }, []);
+
   // function to calculate bmi
 
   const bmiCalculation = () => {
